@@ -1,16 +1,16 @@
 import java.util.Random;
 
 public class CredentialService {
-	// generate email address
+	// generate email address based on their name in lower case & department submitted
 	public String generateEmailAddress(Employee emp) {
 		return emp.getFirstName().toLowerCase() + emp.getLastName().toLowerCase() + "@" + emp.getDepartment().toLowerCase() + ".abc.com";
 	}
 	
 	
 	public String generatePassword() {
-		// String builder
+		
 		Random random = new Random();
-		// Generate a 8 digit password which can have capital letters, small letters, numbers, special characters
+		// 8 digit random password generator
 		String capitalLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String smallLetters = "abcdefghijklmnopqrstuvwxyz";
 		String numbers = "0123456789";

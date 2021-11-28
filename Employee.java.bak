@@ -1,4 +1,3 @@
-package com.greatlearning.model;
 
 public class Employee {
 	// Declare firstName,lastName,String department

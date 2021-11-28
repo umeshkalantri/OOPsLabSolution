@@ -1,11 +1,11 @@
 
 public class Employee {
-	// Declare firstName,lastName,String department
+	// Declared Name & Department
 	private String firstName;
 	private String lastName;
 	private String department;
 	
-	// Create a constructor
+	// Constructor
 	public Employee(String firstName, String lastName, String department) {
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
